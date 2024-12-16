@@ -24,6 +24,12 @@
 // echo "My boat is " . $coLOR . "<br>";
 
 /* Comments */
+// This is single-line comment
+# This is also a single-line comment
+/* This is a
+multi-line comment */
+$x = 5 /* + 15 */ + 5;
+echo $x;
 ?>
 
 </body>
