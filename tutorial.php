@@ -88,16 +88,49 @@ multi-line comment */
 // echo $y;
 
 // Static
-function myTest() {
-    static $x = 0;
-    echo $x;
-    $x++;
-}
+// function myTest() {
+//     static $x = 0;
+//     echo $x;
+//     $x++;
+// }
 
-myTest();
-myTest();
-myTest();
+// myTest();
+// myTest();
+// myTest();
 
+// Echo / Print
+echo "Hello<br>";
+echo("Hello");
+
+echo "<h2>PHP is Fun!</h2>";
+echo "Hello world!<br>";
+echo "I'm about to learn PHP!<br>";
+echo "This ", "String ", "was ", "made ", "with multiple paremters.";
+
+$txt1 = "Learn PHP";
+$txt2 = "W3Schools.com";
+echo "<h2>$txt1</h2>";
+echo "<p>Study PHP at $txt2</p>";
+
+echo '<h2>' . $txt1 . '</h2>';
+echo '<p>Study PHP at ' . $txt2 . '</p>';
+
+print "Hello<br>";
+print("Hello<br>");
+
+print "<h2>PHP is Fun!</h2>";
+print "Hello world!<br>";
+print "I'm about to learn PHP!<br>";
+
+print "<h2>$txt1</h2>";
+print "<p>Study PHP at $txt2</p>";
+
+print '<h2>' . $txt1 . '</h2>';
+print '<p>Study PHP at ' . $txt2 . '</p>';
+
+// Data Types
+$x = 5;
+var_dump($x);
 
 ?>
 
