@@ -99,38 +99,79 @@ multi-line comment */
 // myTest();
 
 // Echo / Print
-echo "Hello<br>";
-echo("Hello");
+// echo "Hello<br>";
+// echo("Hello");
 
-echo "<h2>PHP is Fun!</h2>";
-echo "Hello world!<br>";
-echo "I'm about to learn PHP!<br>";
-echo "This ", "String ", "was ", "made ", "with multiple paremters.";
+// echo "<h2>PHP is Fun!</h2>";
+// echo "Hello world!<br>";
+// echo "I'm about to learn PHP!<br>";
+// echo "This ", "String ", "was ", "made ", "with multiple paremters.";
 
-$txt1 = "Learn PHP";
-$txt2 = "W3Schools.com";
-echo "<h2>$txt1</h2>";
-echo "<p>Study PHP at $txt2</p>";
+// $txt1 = "Learn PHP";
+// $txt2 = "W3Schools.com";
+// echo "<h2>$txt1</h2>";
+// echo "<p>Study PHP at $txt2</p>";
 
-echo '<h2>' . $txt1 . '</h2>';
-echo '<p>Study PHP at ' . $txt2 . '</p>';
+// echo '<h2>' . $txt1 . '</h2>';
+// echo '<p>Study PHP at ' . $txt2 . '</p>';
 
-print "Hello<br>";
-print("Hello<br>");
+// print "Hello<br>";
+// print("Hello<br>");
 
-print "<h2>PHP is Fun!</h2>";
-print "Hello world!<br>";
-print "I'm about to learn PHP!<br>";
+// print "<h2>PHP is Fun!</h2>";
+// print "Hello world!<br>";
+// print "I'm about to learn PHP!<br>";
 
-print "<h2>$txt1</h2>";
-print "<p>Study PHP at $txt2</p>";
+// print "<h2>$txt1</h2>";
+// print "<p>Study PHP at $txt2</p>";
 
-print '<h2>' . $txt1 . '</h2>';
-print '<p>Study PHP at ' . $txt2 . '</p>';
+// print '<h2>' . $txt1 . '</h2>';
+// print '<p>Study PHP at ' . $txt2 . '</p>';
 
 // Data Types
-$x = 5;
-var_dump($x);
+// $x = 5;
+// var_dump($x);
+
+// $x = "Hello world!";
+// $y = 'Hello world!';
+// var_dump($x);
+// echo "<br>";
+// var_dump($y);
+
+// $x = 5985;
+// $x = 10.365;
+// $x = true;
+// var_dump($x);
+// $cars = array("Volvo", "BMW", "Toyota");
+// var_dump($cars);
+
+// class Car {
+//     public $color;
+//     public $model;
+//     public function __construct($color, $model) {
+//         $this->color = $color;
+//         $this->model = $model;
+//     }
+//     public function message() {
+//         return "My car is a " . $this->color . " " . $this->model . "!";
+//     }
+// }
+// $myCar = new Car("red", "Volvo");
+// var_dump($myCar);
+// echo $myCar->message();
+
+// $x = "Hello world!";
+// $x = null;
+// var_dump($x);
+
+// $x = 5;
+// var_dump($x);
+// $x = "Hello";
+// var_dump($x);
+
+// $x = 5;
+// $x = (string) $x = 5;
+// var_dump($x);
 
 ?>
 
