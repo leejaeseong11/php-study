@@ -98,7 +98,7 @@ multi-line comment */
 // myTest();
 // myTest();
 
-// Echo / Print
+/* Echo / Print */
 // echo "Hello<br>";
 // echo("Hello");
 
@@ -128,7 +128,7 @@ multi-line comment */
 // print '<h2>' . $txt1 . '</h2>';
 // print '<p>Study PHP at ' . $txt2 . '</p>';
 
-// Data Types
+/* Data Types */
 // $x = 5;
 // var_dump($x);
 
@@ -172,6 +172,64 @@ multi-line comment */
 // $x = 5;
 // $x = (string) $x = 5;
 // var_dump($x);
+
+/* Strings */
+// echo "Hello<br>";
+// echo 'Hello<br>';
+
+// $x = "John";
+// echo "Hello $x<br>";
+// echo 'Hello $x<br>';
+
+// echo strlen("Hello world!");
+// echo "<br>";
+// echo str_word_count("Hello world!");
+// echo "<br>";
+// echo strpos("Hello world!", "world");
+
+// $x = "Hello World!";
+// echo strtoupper($x);
+// echo "<br>";
+// echo strtolower($x);
+// echo "<br>";
+// echo str_replace("World", "Dolly", $x);
+// echo "<br>";
+// echo strrev($x);
+
+// echo "<br>";
+// $x = " Hello World! ";
+// echo "<input value='" . trim($x) . "' />";
+// echo "<br>";
+
+// $y = explode(" ", $x);
+// print_r($y);
+
+// $x = "Hello";
+// $y = "World";
+// $z = $x . $y;
+// echo $z;
+// echo "<br>";
+// $z = $x . " " . $y;
+// echo $z;
+// echo "<br>";
+
+// $x = "Hello";
+// $y = "World";
+// $z = "$x $y";
+// echo $z;
+
+// $x = "Hello World!";
+// echo substr($x, 6, 5);
+// echo "<br>";
+// echo substr($x, 6);
+// echo "<br>";
+// echo substr($x, -5, 3);
+// echo "<br>";
+// $x = "Hi, how are you?";
+// echo substr($x, 5, -3);
+
+// $x = "We are the so-called \"Vikings\" from the north.";
+// echo $x;
 
 ?>
 
