@@ -231,6 +231,47 @@ multi-line comment */
 // $x = "We are the so-called \"Vikings\" from the north.";
 // echo $x;
 
+/* Numbers */
+// $a = 5;
+// $b = 5.34;
+// $c = "25";
+// var_dump($a);
+// var_dump($b);
+// var_dump($c);
+
+// $x = 5985;
+// var_dump(is_int($x));
+// $x = 59.85;
+// var_dump(is_int($x));
+// $X = 10.365;
+// var_dump(is_float($x));
+
+// $x = 1.9e4111;
+// var_dump($x);
+// $x = acos(8);
+// var_dump($x);
+
+// $x = 5985;
+// var_dump(is_numeric($x));
+// $x = "5985";
+// var_dump(is_numeric($x));
+// $x = "59.85" + 100;
+// var_dump(is_numeric($x));
+// $x = "Hello";
+// var_dump(is_numeric($x));
+
+// // cast float to int
+// $x = 23465.768;
+// $int_cast = (int) $x;
+// echo $int_cast;
+
+// echo "<br>";
+
+// // cast string to int
+// $x = "23465.768";
+// $int_cast = (int)$x;
+// echo $int_cast;
+
 ?>
 
 </body>
