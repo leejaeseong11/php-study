@@ -272,6 +272,126 @@ multi-line comment */
 // $int_cast = (int)$x;
 // echo $int_cast;
 
+/* Casting */
+// $a = 5;
+// $b = 5.34;
+// $c = "hello";
+// $d = true;
+// $e = NULL;
+// $a = (string) $a;
+// $b = (string) $b;
+// $c = (string) $c;
+// $d = (string) $d;
+// $e = (string) $e;
+// var_dump($a);
+// var_dump($b);
+// var_dump($c);
+// var_dump($d);
+// var_dump($e);
+
+// $a = 5;
+// $b = 5.34;
+// $c = "25 kilometers";
+// $d = "kilometers 25";
+// $e = "hello";
+// $f = true;
+// $g = NULL;
+// $a = (int) $a; // 5
+// $b = (int) $b; // 5
+// $c = (int) $c; // 25
+// $d = (int) $d; // 0
+// $e = (int) $e; // 0
+// $f = (int) $f; // 1
+// $g = (int) $g; // 0
+
+// $a = 5;
+// $b = 5.34;
+// $c = "25 kilometers";
+// $d = "kilometers 25";
+// $e = "hello";
+// $f = true;
+// $g = NULL;
+// $a = (float) $a; // 5
+// $b = (float) $b; // 5.34
+// $c = (float) $c; // 25
+// $d = (float) $d; // 0
+// $e = (float) $e; // 0
+// $f = (float) $f; // 1
+// $g = (float) $g; // 0
+
+// $a = 5;
+// $b = 5.34;
+// $c = 0;
+// $d = -1;
+// $e = 0.1;
+// $f = "hello";
+// $g = "";
+// $h = true;
+// $i = NULL;
+// $a = (bool) $a; // true
+// $b = (bool) $b; // true
+// $c = (bool) $c; // false
+// $d = (bool) $d; // true
+// $e = (bool) $e; // true
+// $f = (bool) $f; // true
+// $g = (bool) $g; // false
+// $h = (bool) $h; // true
+// $i = (bool) $i; // false
+
+// $a = 5;
+// $b = 5.34;
+// $c = "hello";
+// $d = true;
+// $e = NULL;
+// $a = (array) $a; // array(1) { [0]=> int(5) }
+// $b = (array) $b; // array(1) { [0]=> float(5.34) }
+// $c = (array) $c; // array(1) { [0]=> string(5) "hello" }
+// $d = (array) $d; // array(1) { [0]=> bool(true) }
+// $e = (array) $e; // array(0) { }
+
+// class Car {
+//     public $color;
+//     public $model;
+//     public function __construct($color, $model) {
+//         $this->color = $color;
+//         $this->model = $model; 
+//     }
+//     public function message() {
+//         return "My car is a " . $this->color . " " . $this->model . "!";
+//     }
+// }
+// $myCar = new Car("red", "Volvo");
+// $myCar = (array) $myCar;
+// var_dump($myCar); // array(2) { ["color"]=> string(3) "red" ["model"]=> string(5) "Volvo" }
+
+// $a = 5;
+// $b = 5.34;
+// $c = "hello";
+// $d = true;
+// $e = NULL;
+// $a = (object) $a; // object(stdClass)#1 (1) { ["scalar"]=> int(5) }
+// $b = (object) $b; // object(stdClass)#2 (1) { ["scalar"]=> float(5.34) }
+// $c = (object) $c; // object(stdClass)#3 (1) { ["scalar"]=> string(5) "hello" }
+// $d = (object) $d; // object(stdClass)#4 (1) { ["scalar"]=> bool(true) }
+// $e = (object) $e; // object(stdClass)#5 (0) { }
+
+// $a = array("Volvo", "BMW", "Toyota"); // indexed array
+// $b = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43"); // associative array
+// $a = (object) $a; // object(stdClass)#2 (3) { ["0"]=> string(5) "Volvo" ["1"]=> string(3) "BMW" ["2"]=> string(6) "Toyota" }
+// $b = (object) $b; // object(stdClass)#1 (3) { ["Peter"]=> string(2) "35" ["Ben"]=> string(2) "37" ["Joe"]=> string(2) "43" }
+
+// $a = 5;
+// $b = 5.34;
+// $c = "hello";
+// $d = true;
+// $e = NULL;
+// // $a = (unset) $a; // deprecated
+// $a = NULL;  
+// $b = NULL;  
+// $c = NULL; 
+// $d = NULL;  
+// $e = NULL;  
+
 ?>
 
 </body>
